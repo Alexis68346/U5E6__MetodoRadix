@@ -31,7 +31,7 @@ public class U5E6__MetodoRadix {
     public static void Radix(List<Integer> lis ) {
      int j;
      for(int x=Integer.SIZE-1;x>=0;x--){
-      List<Integer> aux = new ArrayList<Integer>();
+      List<Integer> aux = new ArrayList<>();
             j=0;
       for(int s=0; s<lis.size();s++){
       aux.add(0);
@@ -52,7 +52,7 @@ public class U5E6__MetodoRadix {
       }
       lis=aux;
       }
-        System.out.println("Lista ordenado");
+        System.out.println("Lista ordenada");
          for( j=0;j<lis.size();j++){
           System.out.print(lis.get(j)+" ");
       }
